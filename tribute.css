@@ -1,0 +1,14 @@
+body {
+   background-image: url("Philadelphia.jpg");
+   background-color: #cccccc;
+   background-size: cover;
+}
+.jumbotron {
+  margin: 60px;
+  opacity: .75;
+  background-color: black;
+}
+img:hover {
+    opacity: 1.0;
+    filter: alpha(opacity=100); /* For IE8 and earlier */
+}
